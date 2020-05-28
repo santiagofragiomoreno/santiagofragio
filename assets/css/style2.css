@@ -1,0 +1,105 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 7%;
+    background: #0a3153;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.logo{
+    width: 6%;
+}
+.menu_principal{
+    width: 100%;
+    border: 1px solid black;
+    height: 4%;
+    background: #0e5da0;
+}
+ul{
+    margin-top: 2px;
+    height: 99%;
+}
+.uno>li{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: #2b72b3;
+    /*border: 1px solid red;*/
+    display: block;
+    float: left;
+    width: 80px;
+    margin-top: -2px;
+    text-align: center;
+    height: 100%;
+}
+.uno>li:hover{
+    background-color: #3480c9;
+}
+div ul li a{
+    vertical-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: white;
+    font-size: 16px;
+}
+.menu_lateral{
+    /*border: 1px solid #095f03;*/
+    width: 14%;
+    height: 85%;
+    float: left;
+    background: #9ccef5;
+}
+.contenido_main{
+    /*border: 1px solid red;*/
+    width: 86%;
+    height: 85%;
+    float: right;
+    background: white;
+}
+.contenido_contacto{
+    /*border: 1px solid red;*/
+    width: 86%;
+    height: 85%;
+    float: right;
+    background: #dfe8ef;
+}
+.contenido_blog{
+    /*border: 1px solid red;*/
+    width: 86%;
+    height: 85%;
+    float: right;
+    background: #f3eeb0;
+}
+.contacto{
+    padding: 20px;
+}
+.footer{
+    vertical-align: sub;
+    height: 6%;
+    font-family: monospace;
+    color: white;
+    background: #0a3153;
+    clear: both;
+}
+.menu_lateral_apuntes_PHP{
+    border: 1px solid black;
+    height: 4%;
+    text-align: center;
+    vertical-align: sub;
+    font-family: monospace;
+    text-decoration: none;
+}
+.menu_lateral_apuntes_PHP > a{
+    text-decoration: none;
+    vertical-align: middle;
+}
+.contenido_apuntes_PHP{
+    background: #eade42;
+    width: 86%;
+    height: 85%;
+    float: right;
+}
