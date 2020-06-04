@@ -3,8 +3,7 @@
 require_once 'autoload.php';
 require_once 'config/parameters.php';
 require_once 'views/lyout/header.php';
-require_once 'views/lyout/menu.php';
-require_once 'views/lyout/lateral.php';
+//require_once 'views/lyout/main.php';
 //comprobamos si en la url existe el parametro controller(htaccess)
 if(isset($_GET['controller'])){
     $nombre_controlador = $_GET['controller'].'Controller';
@@ -24,10 +23,9 @@ if(class_exists($nombre_controlador)){
         $error->index();
     }
 }else{
-    $error = new errorControler();
+    $error = new errorController();
     $error->index();
 }
-
 require_once 'views/lyout/footer.php';
 ?>
 <?php

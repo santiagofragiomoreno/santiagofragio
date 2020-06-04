@@ -1,5 +1,5 @@
 <?php
 ?>
-<main class="contenido_main">
-    menu principal
-</main>
+<div class="main">
+    <p>lugoubol</p>
+</div>

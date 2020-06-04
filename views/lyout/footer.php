@@ -1,5 +1,9 @@
 <?php
 ?>
-<footer class="footer">desarrollado por Santiago Fragio Moreno</footer>
+<footer>
+    <div class="div_footer"></div>
+    <p>Santiago Fragío Moreno 2020</p>
+</footer>
 </body>
+
 </html>

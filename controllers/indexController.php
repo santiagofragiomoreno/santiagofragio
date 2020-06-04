@@ -1,6 +1,6 @@
 <?php
 class indexController{
     public function index(){
-        echo "index principal";
+        require_once "views/index/index.php";
     }
 }
